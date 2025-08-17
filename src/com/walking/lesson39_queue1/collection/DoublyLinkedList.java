@@ -253,6 +253,7 @@ public class DoublyLinkedList<E> implements Collection<E> {
     @Override
     public void clear() {
         top = null;
+        last = null;
         size = 0;
     }
 
